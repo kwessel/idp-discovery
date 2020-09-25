@@ -1,0 +1,251 @@
+body {
+	background-color: white;
+	text-align: left;
+        margin: 10px;
+        padding-left: 10px;
+
+}
+
+p {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 90%;
+}
+
+li {
+	font-size: 100%;
+	list-style-type: none;
+}
+
+h1
+        {
+            padding-top: 5px;
+            margin: 0px auto 20px auto;
+	    font-size: 135%;
+	    font-weight: bold;
+            text-align: center;
+        }
+
+h2 { 
+	padding-left: 10px;
+	font-size: 110%;
+	font-weight: bold;
+}
+
+h3 { 
+	padding-left: 10px;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+span.option { 
+	font-size: 100%;
+	font-weight: bold;
+}
+
+.error {
+	font-size: 100%;
+	color: #990000;
+}
+
+#pageWrapper
+        {
+            margin: 0px auto;
+            width: 750px;
+	    max-width: 100%;
+            background-color: White;
+        }
+
+#customheader
+        {
+            background-color: white;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-bottom: #003d7d solid 3px;
+}
+
+#customheader img
+{
+	    max-width: 100%;
+}
+
+#maincontent
+        {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-bottom: #003d7d solid 3px;
+        }
+
+@media only screen and (max-width: 420px) {
+    #maincontent {
+	font-size: 1.2em;
+    }
+}
+
+.footer {
+	max-width: 600px;
+	border-left-width: 2px;
+	border-right-width: 2px;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-color: #000000;
+	border-style: solid;
+	background-color: #FFFFFF;
+	margin-top: 0;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding-left: .75em;
+	padding-right: .75em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+
+.head {
+	max-width: 600px;
+	border-left-width: 2px;
+	border-right-width: 2px;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-color: #000000;
+	border-style: solid;
+	background-color: #6688aa;
+	margin-top: 1em;
+	margin-bottom: 0;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding-left: .75em;
+	padding-right: .75em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+.selector {
+	max-width: 600px;
+	text-align: center;
+	border-left-width: 2px;
+	border-right-width: 2px;
+	border-top-width: 0;
+	border-bottom-width: 0;
+	border-color: #000000;
+	border-style: solid;
+	background-color: #FFFFFF;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: .75em;
+}
+
+.selector2 {
+	background-color: #FFFFFF;
+}
+
+span.warning {
+	font-size: 80%;
+}
+
+.logo {
+	text-align: center;
+	margin-top: 1.5em;
+}
+
+div.dropdown {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid black;
+    position: absolute;   
+}
+
+div.dropdown div {
+    background-color: white;
+    cursor: default;
+    padding: 0px 3px;
+}
+
+div.dropdown div.current {
+    background-color: #3366cc;
+    color: white;
+}
+
+.btn, .btnaddonright {
+	color: #000000;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	background-image: linear-gradient(#eee, #ddd);
+	text-align: center;
+	padding: 5px;
+	cursor: hand;
+}
+
+.btn:hover, .btnaddonright:hover {
+	background-image: linear-gradient(#ddd, #ccc);
+}
+
+.btnaddonright img {
+	width: 2em;
+	height: 2em;
+	background-color: transparent;
+	left: 0;
+	top: 0;
+	border: 0;
+}
+
+#userIdPSelection, .userIdPSelection {
+	font-size: 100%;
+	margin-bottom: 1.5em;
+}
+
+#IdPList {
+	margin-top: 1.5em;
+}
+
+pre {
+	padding-left: 25px;
+}
+
+.no-border {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+.campus-list-item {
+	margin: 0 0 0.5em 1em;
+}
+
+@media only screen and (max-device-width: 720px){
+	.box {
+		width: auto;
+		box-shadow: none;
+		border-radius: 0;  
+		-webkit-box-shadow: none;
+		-webkit-border-radius: 0;
+		-moz-box-shadow: none;
+		-moz-border-radius: 0;
+		padding: 0;
+	}
+	
+	#content, .content {
+		width: 96%;
+	}
+	
+	#container, .container {
+		width: 96%;
+		position: auto;
+		left: auto;
+		top: auto;
+		margin-left: 0; 
+		margin-top: 0;
+	}
+	
+	#userIdPSelection, .userIdPSelection {
+		width: 60%;
+	}
+	
+	#userIdPSelection_iddwrap input {
+		width:90%!important;
+	}
+}

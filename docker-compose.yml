@@ -1,0 +1,45 @@
+version: "3.3"
+
+services:
+  wayf:
+    image: techservicesillinois/switch-wayf:latest
+    build: switch-wayf
+    volumes:
+     - generated-metadata:/opt/generated-metadata
+    environment:
+     - ENV=test
+
+    logging:
+      options:
+         tag: "wayf"
+    networks:
+     - front
+     - back
+    ports:
+     - "8080:80"
+
+  cron:
+    image: techservicesillinois/wayf-cron:latest
+    build: cron
+    volumes:
+     - generated-metadata:/opt/generated-metadata
+    environment:
+     - ENV=test
+     - APACHE_LOCALHOST=wayf
+
+    logging:
+      options:
+         tag: "cron"
+    networks:
+     - front
+     - back
+
+volumes:
+  generated-metadata:
+
+networks:
+  front:
+    driver: bridge
+  back:    
+    driver: bridge
+ 

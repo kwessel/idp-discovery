@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?><EntitiesDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" ID="INC20120124T195245" Name="urn:mace:incommon" validUntil="2012-02-07T23:00:00Z" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata sstc-saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference URI="#INC20120124T195245">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>HzQPPCfRJU3lCjhM4Xu16sxnurg=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+s66Px6vh2ZZs+KpiNpnkeDj/sj7c06QUes2sEamjik+/bWFyfhQGBnZP1dFdYypaa1NZI/G7vmdb
+dKbonVulrwHczJgw6V7vkmQ/baP8htKWtrg2ZwL2l1B4JfJrfOFoekX4GbyJWzcMj5ZjcR+jh/qw
+bnr7g05bXMontjALToA3mdE5cSv2OX8Or8ZwZkODuVprORlOxOkLtHROoP2vIirigrP9Fmt+QyyZ
+MQld3rGfoQhHPhL8ZhxCVr7XsEx5NkHm3Ry5cq64OFofJ0aMrd1Ol/SsCXmb4NM5DpJPsphHJb6O
+XfVez5jNfjDmg9TNKjgDsjoK+n3DS3eiPxXsZQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+0Chdkrn+dG5Zj5L3UIw+xeWgNzm8ajw7/FyqRQ1SjD4Lfg2WCdlfjOrYGNnVZMCTfItoXTSpg4rX
+xHQsykeNiYRu2+02uMS+1pnBqWjzdPJE0od+q8EbdvE6ShimjyNn0yQfGyQKCNdYuc+75MIHsaIO
+AEtDZUST9Sd4oeU1zRjV2sGvUd+JFHveUAhRc0b+JEZfIEuq/LIU9qxm/+gFaawlmojZPyOWZ1Jl
+swbrrJYYyn10qgnJvjh9gZWXKjmPxqvHKJcATPhAh2gWGabWTXBJCckMe1hrHCl/vbDLCmz0/oYu
+oaSDzP6zE9YSA/xCplaHA0moC1Vs2H5MOQGlew==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIFqTCCBJGgAwIBAgICArowDQYJKoZIhvcNAQEFBQAwVjELMAkGA1UEBhMCVVMxHDAaBgNVBAoT
+E0luQ29tbW9uIEZlZGVyYXRpb24xKTAnBgNVBAMTIEluQ29tbW9uIENlcnRpZmljYXRpb24gQXV0
+aG9yaXR5MB4XDTEwMDUxOTEyNTgyOVoXDTEyMDUxOTEyNTgyOVowJzElMCMGA1UEAxMcZmVkb3Au
+aW5jb21tb25mZWRlcmF0aW9uLm9yZzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANAo
+XZK5/nRuWY+S91CMPsXloDc5vGo8O/xcqkUNUow+C34NlgnZX4zq2BjZ1WTAk3yLaF00qYOK18R0
+LMpHjYmEbtvtNrjEvtaZwalo83TyRNKHfqvBG3bxOkoYpo8jZ9MkHxskCgjXWLnPu+TCB7GiDgBL
+Q2VEk/UneKHlNc0Y1drBr1HfiRR73lAIUXNG/iRGXyBLqvyyFPasZv/oBWmsJZqI2T8jlmdSZbMG
+66yWGMp9dKoJyb44fYGVlyo5j8arxyiXAEz4QIdoFhmm1k1wSQnJDHtYaxwpf72wywps9P6GLqGk
+g8z+sxPWEgP8QqZWhwNJqAtVbNh+TDkBpXsCAwEAAaOCAq4wggKqMA4GA1UdDwEB/wQEAwIFoDAM
+BgNVHRMBAf8EAjAAMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAdBgNVHQ4EFgQU5ij9
+YLU5zQ6K75kPgVpyQ2N/lPswfgYDVR0jBHcwdYAUky3IYRitY+ObZbOd3Y2TuufKY0WhWqRYMFYx
+CzAJBgNVBAYTAlVTMRwwGgYDVQQKExNJbkNvbW1vbiBGZWRlcmF0aW9uMSkwJwYDVQQDEyBJbkNv
+bW1vbiBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eYIBADCBsgYIKwYBBQUHAQEEgaUwgaIwTwYIKwYB
+BQUHMAKGQ2h0dHA6Ly9pbmNvbW1vbmNhMS5pbmNvbW1vbmZlZGVyYXRpb24ub3JnL2JyaWRnZS9j
+ZXJ0cy9jYS1jZXJ0cy5wN2IwTwYIKwYBBQUHMAKGQ2h0dHA6Ly9pbmNvbW1vbmNhMi5pbmNvbW1v
+bmZlZGVyYXRpb24ub3JnL2JyaWRnZS9jZXJ0cy9jYS1jZXJ0cy5wN2IwgY0GA1UdHwSBhTCBgjA/
+oD2gO4Y5aHR0cDovL2luY29tbW9uY3JsMS5pbmNvbW1vbmZlZGVyYXRpb24ub3JnL2NybC9lZWNy
+bHMuY3JsMD+gPaA7hjlodHRwOi8vaW5jb21tb25jcmwyLmluY29tbW9uZmVkZXJhdGlvbi5vcmcv
+Y3JsL2VlY3Jscy5jcmwwXgYDVR0gBFcwVTBTBgsrBgEEAa4jAQQBATBEMEIGCCsGAQUFBwIBFjZo
+dHRwOi8vaW5jb21tb25jYS5pbmNvbW1vbmZlZGVyYXRpb24ub3JnL3ByYWN0aWNlcy5wZGYwJwYD
+VR0RBCAwHoIcZmVkb3AuaW5jb21tb25mZWRlcmF0aW9uLm9yZzANBgkqhkiG9w0BAQUFAAOCAQEA
+RtypKF+3/5z48gZktwIXEUwW/J1ROYvPTvMrtuVyzroBCGp4HfNLuMm6F8BVSrTHqVGLFGrGM8md
+zU+FQdsM/x0W/cc0A4mHLwM4XDDVcH6nepwLZX9H1AfaxYgIGrJL+l8JDWtmEn/ktSij4y4HlA2q
+5kH+UyEwxFuqEUEd2EnL8agjjxiacJYeTon23pbWGe20QTPq45YM5q1G44RCYIhljSYth4FX9vBw
+7n4jH21HpsHTk2gDOkBwXXgiebknnAnPI2jz5mNgEAabhGkDrnGIttEEREcWlOuLdgc8uDUjHO/X
+Dsw27l4YFl6/OG92XPlCOYVQCqSmp0OdTViV9A==
+</ds:X509Certificate>
+<ds:X509Certificate>
+MIIFmjCCBIKgAwIBAgIBADANBgkqhkiG9w0BAQUFADBWMQswCQYDVQQGEwJVUzEcMBoGA1UEChMT
+SW5Db21tb24gRmVkZXJhdGlvbjEpMCcGA1UEAxMgSW5Db21tb24gQ2VydGlmaWNhdGlvbiBBdXRo
+b3JpdHkwHhcNMDQwMzMwMjAzNDAwWhcNMTQwMzI5MjAzNDAwWjBWMQswCQYDVQQGEwJVUzEcMBoG
+A1UEChMTSW5Db21tb24gRmVkZXJhdGlvbjEpMCcGA1UEAxMgSW5Db21tb24gQ2VydGlmaWNhdGlv
+biBBdXRob3JpdHkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDRGjKsUM2QAupLAaWx
+82/CWPalKjKFY8UPmz0T3gf7tJPztTy1Zq8pD0WFRLcQeSBKZGCu8upe8X966b6TZ5yuoUDA754I
+f0DWismuHNoMgRR/l0UvZmPWDGRWd3NBTB8/soLA4EbqFf5Xq8MOJKhPtzcDR33gtaAb3oilZ+ZT
+pnhTFFrn/qXrAKcSDBpuW2JRpi3xaF/hTPI097oUShOzD1Zj21UYLA6iSFVN+1wlfwilf2KFNK/+
+zbkCge6wgipZyXxaOAam6ncqmkxy+hy/OiJMmdB+6xkO0xXSBUUcqxJrOcUQhA1vntgb3q5zOJIS
+XhC4RAReA0HyBp/wd0iDAgMBAAGjggJxMIICbTAOBgNVHQ8BAf8EBAMCAQYwDwYDVR0TAQH/BAUw
+AwEB/zAdBgNVHQ4EFgQUky3IYRitY+ObZbOd3Y2TuufKY0UwfgYDVR0jBHcwdYAUky3IYRitY+Ob
+ZbOd3Y2TuufKY0WhWqRYMFYxCzAJBgNVBAYTAlVTMRwwGgYDVQQKExNJbkNvbW1vbiBGZWRlcmF0
+aW9uMSkwJwYDVQQDEyBJbkNvbW1vbiBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eYIBADCBugYIKwYB
+BQUHAQEEga0wgaowgacGCCsGAQUFBzAChoGaaHR0cDovL2luY29tbW9uY2ExLmluY29tbW9uZmVk
+ZXJhdGlvbi5vcmcvYnJpZGdlL2NlcnRzL2NhLWNlcnRzLnA3YgoJCUNBIElzc3VlcnMgLSBVUkk6
+aHR0cDovL2luY29tbW9uY2EyLmluY29tbW9uZmVkZXJhdGlvbi5vcmcvYnJpZGdlL2NlcnRzL2Nh
+LWNlcnRzLnA3YjCBjQYDVR0fBIGFMIGCMD+gPaA7hjlodHRwOi8vaW5jb21tb25jcmwxLmluY29t
+bW9uZmVkZXJhdGlvbi5vcmcvY3JsL2VlY3Jscy5jcmwwP6A9oDuGOWh0dHA6Ly9pbmNvbW1vbmNy
+bDIuaW5jb21tb25mZWRlcmF0aW9uLm9yZy9jcmwvZWVjcmxzLmNybDBeBgNVHSAEVzBVMFMGCysG
+AQQBriMBBAEBMEQwQgYIKwYBBQUHAgEWNmh0dHA6Ly9pbmNvbW1vbmNhLmluY29tbW9uZmVkZXJh
+dGlvbi5vcmcvcHJhY3RpY2VzLnBkZjANBgkqhkiG9w0BAQUFAAOCAQEAZfgKUPA+Ky+Ou/vclMlF
+TMlUGspfbNSdG/fmIq+E/Lv1d2c73Am1zGhOpxgdkM8SE+BPnXW2rl71/N8gaqwgBBxkpwn410si
+umxlDTwV3HoVFvCGWylNy9o8OE1LyTCqfo8PRwrMzhwcagDgD813BIyjuJg/JQz1LnHMocIW/Jli
+gloSIzF1O435/+ckfWXQsmBIhvV5TmA3ZrcycrI1cHGEZqrCXL0FMZLSr+Vady/tFbVojqI8pSub
+SMxNkZectePTBjVj1Qeb4hmG8jRv/fwy1Iw6OFH8RKny8nQaO5mOe/fF/swEsMVU9TDpvLIgbhTw
+nP7Nhfotgaxf5wG8WA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+
+<EntityDescriptor entityID="https://shibboleth-test.uic.edu/shibboleth" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IDPSSODescriptor errorURL="https://shibboleth-test.uic.edu/idp/error.jsp" protocolSupportEnumeration="urn:mace:shibboleth:1.0 urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol">
+    <Extensions>
+      <shibmd:Scope regexp="false">uic.edu</shibmd:Scope>
+    </Extensions>
+    <KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+MIIFeDCCBGCgAwIBAgIJANCHQ//nV6YCMA0GCSqGSIb3DQEBBQUAMIHXMQswCQYD
+VQQGEwJVUzERMA8GA1UECBMISWxsaW5vaXMxEDAOBgNVBAcTB0NoaWNhZ28xKjAo
+BgNVBAoTIVVuaXZlcnNpdHkgb2YgSWxsaW5vaXMgYXQgQ2hpY2FnbzE1MDMGA1UE
+CxMsQWNhZGVtaWMgQ29tcHV0aW5nIGFuZCBDb21tdW5pY2F0aW9ucyBDZW50ZXIx
+IDAeBgNVBAMTF3NoaWJib2xldGgtdGVzdC51aWMuZWR1MR4wHAYJKoZIhvcNAQkB
+Fg9zeXN0ZW1zQHVpYy5lZHUwHhcNMTIwMzE0MTkyNzU3WhcNMjIwMzEyMTkyNzU3
+WjCB1zELMAkGA1UEBhMCVVMxETAPBgNVBAgTCElsbGlub2lzMRAwDgYDVQQHEwdD
+aGljYWdvMSowKAYDVQQKEyFVbml2ZXJzaXR5IG9mIElsbGlub2lzIGF0IENoaWNh
+Z28xNTAzBgNVBAsTLEFjYWRlbWljIENvbXB1dGluZyBhbmQgQ29tbXVuaWNhdGlv
+bnMgQ2VudGVyMSAwHgYDVQQDExdzaGliYm9sZXRoLXRlc3QudWljLmVkdTEeMBwG
+CSqGSIb3DQEJARYPc3lzdGVtc0B1aWMuZWR1MIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEAqZNMrbrlAK6E+ub6L44UvY51YJVeyb/dXj5+5WuzNDIEIeKO
+LEJH3GtDm9jFNIm+hcjUu5ALyNZR0zxKeLIWKRakfhq7ka+3JsVquzKYMm60osna
+9Kvt2YIPKUoDQ6+iMjHeaHC5nQ+J4R86TcygX2+ei6HpuuBAlgZfJudpXJorE7U0
+bTjUGihProa0c/l8oc3aCLi8K1ngXheLOnXJl2B8D/wMrCXRN7skyuVwgyGTYYjC
+HKVKwAbmXxr3KVpuHbqHRHEwemqxC2OYQGITZYJG3m2xgAo7xL0myzlpq2pyyW2b
+zAVhWjqJ0tph2D2D4T5TAI3IxcgyQHjMUp1Z8wIDAQABo4IBQzCCAT8wHQYDVR0O
+BBYEFKleqNMdZCId7PHhtOfonYIUCtnXMIIBDgYDVR0jBIIBBTCCAQGAFKleqNMd
+ZCId7PHhtOfonYIUCtnXoYHdpIHaMIHXMQswCQYDVQQGEwJVUzERMA8GA1UECBMI
+SWxsaW5vaXMxEDAOBgNVBAcTB0NoaWNhZ28xKjAoBgNVBAoTIVVuaXZlcnNpdHkg
+b2YgSWxsaW5vaXMgYXQgQ2hpY2FnbzE1MDMGA1UECxMsQWNhZGVtaWMgQ29tcHV0
+aW5nIGFuZCBDb21tdW5pY2F0aW9ucyBDZW50ZXIxIDAeBgNVBAMTF3NoaWJib2xl
+dGgtdGVzdC51aWMuZWR1MR4wHAYJKoZIhvcNAQkBFg9zeXN0ZW1zQHVpYy5lZHWC
+CQDQh0P/51emAjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4IBAQBxegva
+gNmDQ7Dmc6hzxv7qbjWRlUd3+KHgXX47Tp58eHyrk3o4tQjRr2UmFmkAkc8Rg7dz
+aXld+QT4VXAHY0V73ci8kVDofymJs/quMG+FSFjVMsnPXQTSWbUuQhmP1QhkDsKs
+51MnMRkuFIyHBrBSMniUA/wVAX4b+j0P8n4gvCNWU80L4B+mIAmUVAStmFg/VL12
+u+uoqXYZFVIraha7Q03vt7CMJRyhRDRE4UAJWAeJlNqMb9FcR9OXXO5zZBXhKb4B
+Mh58s4cu3p4oT0b11gYasohoDTNYfZRhEzb9d6lSHjKIGfVwftbCVU7CMJmZe9ny
+octaba1W8SzikCZW
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </KeyDescriptor>
+    <ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://shibboleth-test.uic.edu:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1"/>
+    <ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://shibboleth-test.uic.edu:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2"/>
+    <SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://shibboleth-test.uic.edu/shibboleth-idp/SSO"/>
+    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shibboleth-test.uic.edu/idp/profile/SAML2/POST/SSO"/>
+    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://shibboleth-test.uic.edu/idp/profile/SAML2/POST-SimpleSign/SSO"/>
+    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://shibboleth-test.uic.edu/idp/profile/SAML2/Redirect/SSO"/>
+  </IDPSSODescriptor>
+  <AttributeAuthorityDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol">
+    <Extensions>
+      <shibmd:Scope regexp="false">uic.edu</shibmd:Scope>
+    </Extensions>
+    <KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+MIIFeDCCBGCgAwIBAgIJANCHQ//nV6YCMA0GCSqGSIb3DQEBBQUAMIHXMQswCQYD
+VQQGEwJVUzERMA8GA1UECBMISWxsaW5vaXMxEDAOBgNVBAcTB0NoaWNhZ28xKjAo
+BgNVBAoTIVVuaXZlcnNpdHkgb2YgSWxsaW5vaXMgYXQgQ2hpY2FnbzE1MDMGA1UE
+CxMsQWNhZGVtaWMgQ29tcHV0aW5nIGFuZCBDb21tdW5pY2F0aW9ucyBDZW50ZXIx
+IDAeBgNVBAMTF3NoaWJib2xldGgtdGVzdC51aWMuZWR1MR4wHAYJKoZIhvcNAQkB
+Fg9zeXN0ZW1zQHVpYy5lZHUwHhcNMTIwMzE0MTkyNzU3WhcNMjIwMzEyMTkyNzU3
+WjCB1zELMAkGA1UEBhMCVVMxETAPBgNVBAgTCElsbGlub2lzMRAwDgYDVQQHEwdD
+aGljYWdvMSowKAYDVQQKEyFVbml2ZXJzaXR5IG9mIElsbGlub2lzIGF0IENoaWNh
+Z28xNTAzBgNVBAsTLEFjYWRlbWljIENvbXB1dGluZyBhbmQgQ29tbXVuaWNhdGlv
+bnMgQ2VudGVyMSAwHgYDVQQDExdzaGliYm9sZXRoLXRlc3QudWljLmVkdTEeMBwG
+CSqGSIb3DQEJARYPc3lzdGVtc0B1aWMuZWR1MIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEAqZNMrbrlAK6E+ub6L44UvY51YJVeyb/dXj5+5WuzNDIEIeKO
+LEJH3GtDm9jFNIm+hcjUu5ALyNZR0zxKeLIWKRakfhq7ka+3JsVquzKYMm60osna
+9Kvt2YIPKUoDQ6+iMjHeaHC5nQ+J4R86TcygX2+ei6HpuuBAlgZfJudpXJorE7U0
+bTjUGihProa0c/l8oc3aCLi8K1ngXheLOnXJl2B8D/wMrCXRN7skyuVwgyGTYYjC
+HKVKwAbmXxr3KVpuHbqHRHEwemqxC2OYQGITZYJG3m2xgAo7xL0myzlpq2pyyW2b
+zAVhWjqJ0tph2D2D4T5TAI3IxcgyQHjMUp1Z8wIDAQABo4IBQzCCAT8wHQYDVR0O
+BBYEFKleqNMdZCId7PHhtOfonYIUCtnXMIIBDgYDVR0jBIIBBTCCAQGAFKleqNMd
+ZCId7PHhtOfonYIUCtnXoYHdpIHaMIHXMQswCQYDVQQGEwJVUzERMA8GA1UECBMI
+SWxsaW5vaXMxEDAOBgNVBAcTB0NoaWNhZ28xKjAoBgNVBAoTIVVuaXZlcnNpdHkg
+b2YgSWxsaW5vaXMgYXQgQ2hpY2FnbzE1MDMGA1UECxMsQWNhZGVtaWMgQ29tcHV0
+aW5nIGFuZCBDb21tdW5pY2F0aW9ucyBDZW50ZXIxIDAeBgNVBAMTF3NoaWJib2xl
+dGgtdGVzdC51aWMuZWR1MR4wHAYJKoZIhvcNAQkBFg9zeXN0ZW1zQHVpYy5lZHWC
+CQDQh0P/51emAjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4IBAQBxegva
+gNmDQ7Dmc6hzxv7qbjWRlUd3+KHgXX47Tp58eHyrk3o4tQjRr2UmFmkAkc8Rg7dz
+aXld+QT4VXAHY0V73ci8kVDofymJs/quMG+FSFjVMsnPXQTSWbUuQhmP1QhkDsKs
+51MnMRkuFIyHBrBSMniUA/wVAX4b+j0P8n4gvCNWU80L4B+mIAmUVAStmFg/VL12
+u+uoqXYZFVIraha7Q03vt7CMJRyhRDRE4UAJWAeJlNqMb9FcR9OXXO5zZBXhKb4B
+Mh58s4cu3p4oT0b11gYasohoDTNYfZRhEzb9d6lSHjKIGfVwftbCVU7CMJmZe9ny
+octaba1W8SzikCZW
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </KeyDescriptor>
+    <AttributeService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://shibboleth-test.uic.edu:8443/shibboleth-idp/AA"/>
+    <AttributeService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://shibboleth-test.uic.edu:8443/idp/profile/SAML2/SOAP/AttributeQuery"/>
+  </AttributeAuthorityDescriptor>
+  <Organization>
+    <OrganizationName xml:lang="en">University of Illinois at Chicago</OrganizationName>
+    <OrganizationDisplayName xml:lang="en">University of Illinois at Chicago</OrganizationDisplayName>
+    <OrganizationURL xml:lang="en">http://www.uic.edu/index.html/</OrganizationURL>
+  </Organization>
+  <ContactPerson contactType="administrative">
+    <GivenName>Robert Goldstein</GivenName>
+    <EmailAddress>bobg@uic.edu</EmailAddress>
+  </ContactPerson>
+  <ContactPerson contactType="technical">
+    <GivenName>Roberto Ullfig</GivenName>
+    <EmailAddress>rullfig@uic.edu</EmailAddress>
+  </ContactPerson>
+  <ContactPerson contactType="support">
+    <GivenName>James O'Leary</GivenName>
+    <EmailAddress>joleary@uic.edu</EmailAddress>
+  </ContactPerson>
+  <ContactPerson contactType="technical">
+    <GivenName>Johnathan Kupferer</GivenName>
+    <EmailAddress>jtk@uic.edu</EmailAddress>
+  </ContactPerson>
+</EntityDescriptor>
+
+<md:EntityDescriptor entityID="box.net" cacheDuration="PT1440M" ID="aHpj7sB2.Gqdzy9iYvSX_6JoVmS" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#aHpj7sB2.Gqdzy9iYvSX_6JoVmS">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>pDLFVrEUtpAGon9tn8pqVuuD/UoO6ifmQmKuL2D8p4U=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+bbh9Csxadt+XAHdO7zXTSY4+aDLtWEZQpBwgMKCPPW5uWkLnVbSpxflIOo7PN05OHr9Sd7M5Y+2T
+Gy1+Zb7Sq+n+2oQ/Ae5UKh+Q/KNfltQcW1J3XO2eeDfNp3cevuBsJjJ1zfzv/ollesXZswnKZz/2
+PnwML1tzdwIUD4hKf2Y=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIICHTCCAYagAwIBAgIGATc5d2+BMA0GCSqGSIb3DQEBBQUAMFIxCzAJBgNVBAYTAlVTMQswCQYD
+VQQIEwJDQTESMBAGA1UEBxMJTG9zIEFsdG9zMRAwDgYDVQQKEwdCb3gubmV0MRAwDgYDVQQDEwdi
+b3gubmV0MB4XDTEyMDUxMTAxMTU1N1oXDTE0MDUxMTAxMTU1N1owUjELMAkGA1UEBhMCVVMxCzAJ
+BgNVBAgTAkNBMRIwEAYDVQQHEwlMb3MgQWx0b3MxEDAOBgNVBAoTB0JveC5uZXQxEDAOBgNVBAMT
+B2JveC5uZXQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAIf8XpSWiVUWmHgPBCJKE48DhAVp
+RYnlomeBzHrkhMFyr0i7EKo1qMC9ewQbvp3nguz1bd5r9g75+l/xdfQ/+OOpqw0WicqsNEUpkOeq
+I/w35q9n6LZL85w0s21PtoGrpI7dV3NDw4qMxI760+oYYRBoj2qxnXLlHfoAWLUJjzEPAgMBAAEw
+DQYJKoZIhvcNAQEFBQADgYEAEimuP4fO2Exrv3QQvkRUpgtWLpLVjOAEwDzD5hdLej0/wICHzT7l
+gB+wMrEVsZ/76Bxh5C0T5JBtgosqKs9/F/WySV9FSFnRnjh7DUptfJCv4UFhkZdY6l4fja673cX1
+eITlrMBEgtDrqETmJsqlp2RXv5GSPmhQXFA2tLENHVY=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+h/xelJaJVRaYeA8EIkoTjwOEBWlFieWiZ4HMeuSEwXKvSLsQqjWowL17BBu+neeC7PVt3mv2Dvn6
+X/F19D/446mrDRaJyqw0RSmQ56oj/Dfmr2fotkvznDSzbU+2gaukjt1Xc0PDiozEjvrT6hhhEGiP
+arGdcuUd+gBYtQmPMQ8=
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+</ds:Signature><md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:Extensions xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+      <DiscoveryResponse xmlns="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Binding="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Location="https://sso.services.box.net/sp/startSSO.ping" index="1"/>
+    </md:Extensions>
+<md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIICHTCCAYagAwIBAgIGATc5d2+BMA0GCSqGSIb3DQEBBQUAMFIxCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTESMBAGA1UEBxMJTG9zIEFsdG9zMRAwDgYDVQQKEwdCb3gubmV0MRAwDgYDVQQDEwdib3gubmV0MB4XDTEyMDUxMTAxMTU1N1oXDTE0MDUxMTAxMTU1N1owUjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRIwEAYDVQQHEwlMb3MgQWx0b3MxEDAOBgNVBAoTB0JveC5uZXQxEDAOBgNVBAMTB2JveC5uZXQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAIf8XpSWiVUWmHgPBCJKE48DhAVpRYnlomeBzHrkhMFyr0i7EKo1qMC9ewQbvp3nguz1bd5r9g75+l/xdfQ/+OOpqw0WicqsNEUpkOeqI/w35q9n6LZL85w0s21PtoGrpI7dV3NDw4qMxI760+oYYRBoj2qxnXLlHfoAWLUJjzEPAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAEimuP4fO2Exrv3QQvkRUpgtWLpLVjOAEwDzD5hdLej0/wICHzT7lgB+wMrEVsZ/76Bxh5C0T5JBtgosqKs9/F/WySV9FSFnRnjh7DUptfJCv4UFhkZdY6l4fja673cX1eITlrMBEgtDrqETmJsqlp2RXv5GSPmhQXFA2tLENHVY=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:KeyDescriptor use="encryption"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIICHTCCAYagAwIBAgIGATc5d2+BMA0GCSqGSIb3DQEBBQUAMFIxCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTESMBAGA1UEBxMJTG9zIEFsdG9zMRAwDgYDVQQKEwdCb3gubmV0MRAwDgYDVQQDEwdib3gubmV0MB4XDTEyMDUxMTAxMTU1N1oXDTE0MDUxMTAxMTU1N1owUjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRIwEAYDVQQHEwlMb3MgQWx0b3MxEDAOBgNVBAoTB0JveC5uZXQxEDAOBgNVBAMTB2JveC5uZXQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAIf8XpSWiVUWmHgPBCJKE48DhAVpRYnlomeBzHrkhMFyr0i7EKo1qMC9ewQbvp3nguz1bd5r9g75+l/xdfQ/+OOpqw0WicqsNEUpkOeqI/w35q9n6LZL85w0s21PtoGrpI7dV3NDw4qMxI760+oYYRBoj2qxnXLlHfoAWLUJjzEPAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAEimuP4fO2Exrv3QQvkRUpgtWLpLVjOAEwDzD5hdLej0/wICHzT7lgB+wMrEVsZ/76Bxh5C0T5JBtgosqKs9/F/WySV9FSFnRnjh7DUptfJCv4UFhkZdY6l4fja673cX1eITlrMBEgtDrqETmJsqlp2RXv5GSPmhQXFA2tLENHVY=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:ArtifactResolutionService isDefault="true" Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://sso.services.box.net/sp/ARS.ssaml2" index="0"/><md:SingleLogoutService Location="https://sso.services.box.net/sp/SLO.saml2" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"/><md:SingleLogoutService Location="https://sso.services.box.net/sp/SLO.saml2" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/><md:SingleLogoutService Location="https://sso.services.box.net/sp/SLO.saml2" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact"/><md:SingleLogoutService Location="https://sso.services.box.net/sp/SLO.ssaml2" Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"/><md:AssertionConsumerService isDefault="true" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.services.box.net/sp/ACS.saml2" index="0"/><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://sso.services.box.net/sp/ACS.saml2" index="1"/><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:PAOS" Location="https://sso.services.box.net/sp/ACS.saml2" index="2"/><md:AttributeConsumingService index="0"><md:ServiceName xml:lang="en">U of I Box</md:ServiceName><md:RequestedAttribute Name="first_name"/><md:RequestedAttribute Name="phone"/><md:RequestedAttribute Name="last_name"/></md:AttributeConsumingService></md:SPSSODescriptor><md:ContactPerson contactType="administrative"><md:Company>Box.net</md:Company><md:GivenName>Box</md:GivenName><md:SurName>Support</md:SurName><md:EmailAddress>business-support@box.com</md:EmailAddress></md:ContactPerson></md:EntityDescriptor>
+
+
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" entityID="urn:mace:incommon:uiuc.edu:healthcheck:elb">
+  <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:Extensions xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+      <DiscoveryResponse xmlns="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Binding="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Location="https://shibboleth.illinois.edu" index="1"/>
+    </md:Extensions>
+    <AssertionConsumerService index="1" isDefault="true" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shibboleth.illinois.edu"/>
+  </SPSSODescriptor>
+</EntityDescriptor>
+
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" entityID="urn:mace:incommon:uiuc.edu:healthcheck:container">
+  <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:Extensions xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+      <DiscoveryResponse xmlns="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Binding="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Location="https://shibboleth.illinois.edu" index="1"/>
+    </md:Extensions>
+    <AssertionConsumerService index="1" isDefault="true" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shibboleth.illinois.edu"/>
+  </SPSSODescriptor>
+</EntityDescriptor>
+
+</EntitiesDescriptor>

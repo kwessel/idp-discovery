@@ -1,0 +1,1 @@
+*/5 * * * * root /usr/local/bin/wayf-update.sh > /tmp/logcron 2>&1

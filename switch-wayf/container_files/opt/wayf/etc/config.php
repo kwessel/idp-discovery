@@ -1,0 +1,13 @@
+$commonDomain = (isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : 'localhost');
+$cookieSecurity = true;
+$cookieValidity = 3650;
+$showPermanentSetting = true;
+$useImprovedDropDownList = false;
+$showNumOfPreviouslyUsedIdPs = 0;
+$useACURLsForReturnParamCheck = true;
+$useSAML2Metadata = true; 
+$metadataFile = '/opt/generated-metadata/all-entities.xml';
+$metadataIDPFile = '/tmp/IDProvider.metadata.php';
+$metadataSPFile = '/tmp/SProvider.metadata.php';
+$WAYFLogFile = '/tmp/logwayf'; 
+$developmentMode = false;
