@@ -1,0 +1,49 @@
+pipeline:
+  ecr:
+    image: plugins/ecr
+    region: us-east-2
+    repo: 617683844790.dkr.ecr.us-east-2.amazonaws.com/idp-discovery
+    context: ./switch-wayf
+    dockerfile: ./switch-wayf/Dockerfile
+    tags:
+      - latest
+      - git-${DRONE_COMMIT_SHA}
+      - git-${DRONE_COMMIT_SHA}-${DRONE_BUILD_NUMBER}
+    when:
+      branch: master
+  ecr:
+    image: plugins/ecr
+    region: us-east-2
+    repo: 617683844790.dkr.ecr.us-east-2.amazonaws.com/idp-discovery-cron
+    context: ./cron
+    dockerfile: ./cron/Dockerfile
+    tags:
+      - latest
+      - git-${DRONE_COMMIT_SHA}
+      - git-${DRONE_COMMIT_SHA}-${DRONE_BUILD_NUMBER}
+    when:
+      branch: master
+  ecr:
+    image: plugins/ecr
+    region: us-east-2
+    repo: 617683844790.dkr.ecr.us-east-2.amazonaws.com/idp-discovery
+    context: ./switch-wayf
+    dockerfile: ./switch-wayf/Dockerfile
+    tags:
+      - test
+      - git-${DRONE_COMMIT_SHA}
+      - git-${DRONE_COMMIT_SHA}-${DRONE_BUILD_NUMBER}
+    when:
+      branch: [ develop, feature/*, issue_* ]
+  ecr:
+    image: plugins/ecr
+    region: us-east-2
+    repo: 617683844790.dkr.ecr.us-east-2.amazonaws.com/idp-discovery-cron
+    context: ./cron
+    dockerfile: ./cron/Dockerfile
+    tags:
+      - test
+      - git-${DRONE_COMMIT_SHA}
+      - git-${DRONE_COMMIT_SHA}-${DRONE_BUILD_NUMBER}
+    when:
+      branch: [ develop, feature/*, issue_* ]
